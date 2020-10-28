@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src = "./node_modules/jquery/dist/jquery.js"></script>
+        <script src = "./game2.js"></script>
+        <script src = "./view.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>2048</title>
+    </head>
+    <body>
+      <section class="primary">
+        <div class="container">
+          <h1>
+            2048
+          </h1>
+        </div>
+      </section>
+      <div id = "sc">
+        <div id = "score"></div>
+      </div>
+      <table name = "game" id = 'game' border = "1" style ="margin-left: auto; margin-right: auto;"></table>
+      <div class = root>
+        <div id = 'root'>
+        </div></div>
+      <div id = 'root'></div> 
+      <div class = "but">
+        <button id ="reset"><b>RESET</b></button>
+      </div>
+      
+        <div id = "howto">Good Luck! Music by Alex Harvey <a href = "../index.html">return home</a></div>
+        <audio src="Exploration_1.mp3" autoplay>
+          <embed src = "Exploration_1.mp3" width = "0px" height = "0px" hidden = "true" autostart = "true" loop = "true">
+          </audio>
+        
+      </body>
+</html>
