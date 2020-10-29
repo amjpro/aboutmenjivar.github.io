@@ -9,7 +9,7 @@ body{
 #intro{
     background-color: black;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700px;
     letter-spacing: 15px;
     /* margin-top: 65%; */
@@ -32,7 +32,7 @@ body{
 }
 .text1{
     color: white;
-    font-size: 200px;
+    font-size: 150px;
     font-weight: 700;
     letter-spacing: 15px;
     margin-bottom: 20px;
