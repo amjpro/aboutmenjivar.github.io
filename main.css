@@ -6,13 +6,25 @@
 body{
     background: #000;
 }
-.container{
-    text-align: center;
+#intro{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight: 700px;
+    letter-spacing: 15px;
+    /* margin-top: 65%; */
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+    bottom: 0%;
+    text-align: right;
+}
+/* this sections covers the title */
+.container{
+    text-align: left;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    width: 50%;
 }
 .container span {
     text-transform: uppercase;
@@ -20,7 +32,7 @@ body{
 }
 .text1{
     color: white;
-    font-size: 60px;
+    font-size: 200px;
     font-weight: 700;
     letter-spacing: 15px;
     margin-bottom: 20px;
@@ -29,12 +41,22 @@ body{
     animation: text 3s 1; 
 }
 .text2{
-    font-size: 25px;
+    font-size: 30px;
     color: greenyellow;
     letter-spacing: 15px;
 }
+/* this section will cover all elements with the
+ scroll animation */
+#container{
+    
+}
+.hideme
+{
+    opacity:0;
+}
+/* link to 2048 */
 footer{
-    position:absolute;
+    position:relative;
     bottom:0%;
     width:100%;
     text-align:center;
@@ -45,13 +67,14 @@ footer{
     margin-bottom: 20px;
 }
 a:link{
-    color:white;
+    color:greenyellow;
     text-decoration: none;
 }
 a:visited{
     text-decoration: none;
-    color:white;
+    color:yellowgreen;
 }
+/* animation for title */
 @keyframes text{
     0%{
         color: black;
@@ -67,3 +90,29 @@ a:visited{
     }
     
 }
+/* well and right of well */
+/* .well {
+    float: left;
+    width: 45%;
+    max-width:480%;
+    position: relative;
+    background-image: url(./IMG_0771.JPG);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 398px;
+    background-position: center;
+ }
+ .rofwell {
+    float: right;
+    width: 50%;
+    height: 390px;
+    display:inline-grid;
+     grid-template-rows:100%;
+     grid-template-areas: 
+         "main2";
+ }
+ .i2{
+     grid-area: main2;
+     text-align:left;
+     font-size:16px;
+ } */
