@@ -3,14 +3,58 @@
     <head>
         <meta charset = "utf-8">
         <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="./node_modules/bulma/css/bulma.css">
         <link rel = "stylesheet" href="main.css">
         <script src = "./node_modules/jquery/dist/jquery.js"></script>
         <script src = "./scroll.js"></script>
     </head>
     <body>
-        <div class = "container">
-            <span class = "text1">Welcome,</span>
-            <span class = "text2">but in green!</span>
+        <div id = "page">
+            <section class="hero is-fullheight is-dark is-bold" style="background-image: url(amj_site.png); background-size: contain; background-repeat: no-repeat; background-position: center;">
+                <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed; background-color: #363636;width: 100%;">
+                    <div class="navbar-brand">
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item">Home</a>
+                            <a class="navbar-item">About Me</a>
+                            <a class="navbar-item">Projects</a>
+                            <a class="navbar-item">Resume</a>
+                        </div>
+                        <div class = "navbar-end"></div>
+                    </div>
+                </nav>
+                <div id = "container">
+                    <span class = "text1">Welcome</span>
+                </div>
+            </section>
+            <section class="section hideme">
+                <div class="container">
+                    <div class="content">
+                        <h1 class="title">Hello!</h1>
+                        <h5 class="subtitle has-text-grey">-An Informal Introduction</h5>
+                        <p>My name is Andres Menjivar Jr. and I welcome you to my personal site! 
+                            Currently, I am a junior studying Computer Science at The University of North Carolina at Chapel Hill. 
+                            I am grateful to be a first generation student, with my older sibling being graduate of UNC-CH in 2016. 
+                            Prior to university life, I was heavily focused in student government and had hobbies such as playing cello and digital art design. 
+                            These hobbies remain today along with my work on small projects (such as this), which show a snippet of my knowledge of the field. 
+                            As this site continues to expand, I hope my work continues to express this.</p>
+                    </div>
+                </div>
+            </section>
+            <section class = "container">
+                <div class = "hideme box">
+                    <p style="color:black;">Currently, this is under the works, but feel free to play my custom <a href = "./2048/index.html">2048</a> :)</p>
+                </div>
+            </section>
+            
+            <!-- 
+            <span class = "text2">but in green!</span> -->
         </div>
         <!-- <main>
             <section class="content">
@@ -24,12 +68,12 @@
                 </section>
             </section>
         </main> -->
-        <div id = "container">
+        <!-- <div id = "container">
                 <div id="intro">Hello, My name is Andres M. and I welcome you to the site. 
-                    Currently, I am under development. In the mean time, enjoy my custom 
+                    Currently, this am under development. In the mean time, enjoy my custom 
                     <a href = "./2048/index.html">2048</a> :)</div>
-                <!-- <div class="hideme">Fade In</div> -->
-        </div>
+                
+        </div> -->
     </body>
     <!-- <footer><a href = "./2048/index.html">In the mean time</a></footer> -->
 </html>
