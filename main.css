@@ -38,9 +38,6 @@
 }
 
 /* fade in animation */
-.container{
-    height:500px;
-}
 .container div
 { 
     margin:10px auto; 
