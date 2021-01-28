@@ -53,17 +53,17 @@ function loadPage(hour){
                     <div class="cols">
                     <img src="./images/bell_tower.jpg" style="width:100%">
                     <img src="./images/well.JPG" style="width:100%">
-                    <img src="./images/n1.JPG" style="width:100%">
+                    <img src="./images/n1.jpg" style="width:100%">
                     <img src="./images/blue_rose.JPG" style="width:100%">
                     <img src="./images/piano.JPG" style="width:100%">
-                    <img src="./images/n5.JPG" style="width:100%">
+                    <img src="./images/n5.jpg" style="width:100%">
                     </div>
                     <div class="cols">
                     <img src="./images/n2.jpg" style="width:100%">
                     <img src="./images/candle.GIF" style="width:100%">
                     <img src="./images/winter_blossom.jpg" style="width:100%">
-                    <img src="./images/n3.JPG" style="width:100%">
-                    <img src="./images/n4.JPG" style="width:100%">
+                    <img src="./images/n3.jpg" style="width:100%">
+                    <img src="./images/n4.jpg" style="width:100%">
                     </div>
                   </div>
             </div>
@@ -170,17 +170,17 @@ function loadPage(hour){
                     <div class="cols">
                         <img src="./images/bell_tower.jpg" style="width:100%">
                         <img src="./images/well.JPG" style="width:100%">
-                        <img src="./images/n1.JPG" style="width:100%">
+                        <img src="./images/n1.jpg" style="width:100%">
                         <img src="./images/blue_rose.JPG" style="width:100%">
                         <img src="./images/piano.JPG" style="width:100%">
-                        <img src="./images/n5.JPG" style="width:100%">
+                        <img src="./images/n5.jpg" style="width:100%">
                     </div>
                     <div class="cols">
                         <img src="./images/n2.jpg" style="width:100%">
                         <img src="./images/candle.GIF" style="width:100%">
                         <img src="./images/winter_blossom.jpg" style="width:100%">
-                        <img src="./images/n3.JPG" style="width:100%">
-                        <img src="./images/n4.JPG" style="width:100%">
+                        <img src="./images/n3.jpg" style="width:100%">
+                        <img src="./images/n4.jpg" style="width:100%">
                     </div>
                 </div>
             </div>
