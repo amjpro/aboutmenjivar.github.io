@@ -3,8 +3,7 @@ let currHour = currDate.getHours();
 
 function loadPage(hour){
     const $root = $('#page');
-    if (hour <6 || hour>18){
-        $('#page').attr("style","background-color:hsl(0, 0%, 4%)");
+    if (hour <=6 || hour>=18){
         let elt = `<section class="hero is-fullheight is-black is-bold" style="background-image: url(./images/amj_site_night.png); background-size: contain; background-repeat: no-repeat; background-position: center;">
         <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed; background-color:hsl(0, 0%, 4%);width: 100%;">
             <div class="navbar-brand">
@@ -26,11 +25,11 @@ function loadPage(hour){
             </div>
         </nav>
         <div id = "container1">
-            <p class = "moretext1">Welcom<span id = "E" style="color:hsl(0, 0%, 9%)">e</span></p>
+            <p class = "moretext1">Welcome</p>
             <p class = "moretext2">to after hours management</p>
         </div>
     </section>
-    <section class="section" style = "background-color:hsl(0, 0%, 4%)" id = "AM">
+    <section class="section" id = "AM">
         <div class="container">
             <div class="content">
                 <h1 class="title">Hello!</h1>
@@ -69,7 +68,7 @@ function loadPage(hour){
             </div>
         </div>
     </section>
-    <section class="section" style = "background-color:hsl(0, 0%, 4%)" id = "Projects">
+    <section class="section" id = "Projects">
         <div class="container">
             <div class="content">
                 <h1 class="title">Projects</h1>
@@ -122,6 +121,7 @@ function loadPage(hour){
         </div>
     </section>`
         $(elt).appendTo($root);
+        $('head').append('<link rel="stylesheet" type="text/css" href="./css/night.css">');
     } else {
         let elt =`<section class="hero is-fullheight is-dark is-bold" style="background-image: url(./images/amj_site.png); background-size: contain; background-repeat: no-repeat; background-position: center;">
         <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed; background-color: #363636;width: 100%;">
@@ -238,7 +238,8 @@ function loadPage(hour){
             </div>
         </div>
     </section>`
-    $(elt).appendTo($root);
+        $(elt).appendTo($root);
+        $('head').append('<link rel="stylesheet" type="text/css" href="./css/day.css">');
     }
 }
 

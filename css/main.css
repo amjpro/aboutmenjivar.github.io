@@ -96,7 +96,7 @@
 
 /* scroll animation */
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 /* photo gallery */
 * {
@@ -134,6 +134,7 @@ html {
   p{
       font-size: 20px;
   }
+  
 
 
 
