@@ -229,7 +229,7 @@ function loadPage(hour){
                     </div>
                 </div>
             </section>
-            <section class="section hideme" id = "Resume">
+            <section class="section" id = "Resume">
         <div class="container">
             <div class="content">
                 <h1 class="title">Resume</h1>
