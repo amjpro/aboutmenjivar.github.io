@@ -4,7 +4,7 @@ let currHour = currDate.getHours();
 function loadPage(hour){
     const $root = $('#page');
     if (hour <=6 || hour>=18){
-        let elt = `<section class="hero is-fullheight is-bold" style="background-image: url(./images/Andres_Logo_night.png); background-size: 50%; background-repeat: no-repeat; background-position: center;">
+        let elt = `<section class="hero is-fullheight is-bold" style="background-image: url(./images/Andres_Logo_night.png); background-size: 300px; background-repeat: no-repeat; background-position: center;">
         <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed; background-color:hsl(0, 0%, 4%);width: 100%;">
             <div class="navbar-brand">
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -162,7 +162,7 @@ function loadPage(hour){
         $(elt).appendTo($root);
         $('head').append('<link rel="stylesheet" type="text/css" href="./css/night.css">');
     } else {
-        let elt =`<section class="hero is-fullheight is-bold" style="background-image: url(./images/Andres_Logo_Day.png); background-size: 50%; background-repeat: no-repeat; background-position: center;">
+        let elt =`<section class="hero is-fullheight is-bold" style="background-image: url(./images/Andres_Logo_Day.png); background-size: 300px; background-repeat: no-repeat; background-position: center;">
         <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed; background-color: #363636;width: 100%;">
             <div class="navbar-brand">
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -171,7 +171,7 @@ function loadPage(hour){
                     <span aria-hidden="true"></span>
                 </a>
             </div>
-            <div id="navbarBasicExample" class="navbar-menu" style="background-color:#363636">
+            <div id="navbarBasicExample" class="navbar-menu" style="background-color:#363636;">
                 <div class="navbar-start">
                     <a class="navbar-item" href = "#page">Home</a>
                     <a class="navbar-item" href = "#AM">About Me</a>
