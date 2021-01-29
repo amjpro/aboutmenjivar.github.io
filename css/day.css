@@ -27,11 +27,11 @@ html {
 }
  a:link{
     text-decoration: none;
-    color:  rgb(53, 100, 74);
+    color:  white;
     font-weight: 200;
 }
 a:visited{
     text-decoration: none;
-    color:rgb(53,100,74);
+    color:white;
     font-weight: 200;
 }
