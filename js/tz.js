@@ -242,7 +242,7 @@ function loadPage(hour){
                 </ul>
             </div>
             <div class = "box" style="background-color:hsl(0, 0%, 10%)">
-                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Interests and Activities:</h2>
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Volunteer Activities:</h2>
                 <ul>
                     <li>Carousel Festival, 2016</li>
                     <li>Toys for Tots, 2016</li>
@@ -500,7 +500,7 @@ function loadPage(hour){
                         </ul>
                     </div>
                     <div class = "box">
-                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Interests and Activities:</h2>
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Volunteer Activities:</h2>
                         <ul>
                             <li>Carousel Festival, 2016</li>
                             <li>Toys for Tots, 2016</li>
