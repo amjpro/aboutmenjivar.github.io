@@ -152,12 +152,115 @@ function loadPage(hour){
     </section>
     <div class = "break"></div>
     <section class="section" id = "Resume">
-        <div class="container">
-            <div class="content">
-                <h1 class="title" style = "color:rgb(150,150,150);">Resume</h1>
-                <p>Will be posted soon -AMJ</p>
+    <div class="container">
+    <div class="content">
+        <h1 class="title" style = "color:rgb(150,150,150);">Resume</h1>
+        <h5 class="subtitle has-text-weight-normal"></h5>
+        <div class ="resume_content box" style="background-color:hsl(0, 0%, 4%)">
+            <h1 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Andrés Menjívar, Jr.</h1>
+            <div class = "box" style="background-color:hsl(0, 0%, 10%)">
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Contact Information:</h2>
+                <address style="font-family: 'Raleway', sans-serif;">
+                    <a href="mailto:menjivar.andres.j@unc.edu" style="color: rgb(40, 100, 190)">menjivar.andres.j@unc.edu</a><br>
+                    <a href="mailto:andres25@unc.edu" style="color: rgb(40, 100, 190)">andres25@live.unc.edu</a>
+                </address>    
             </div>
+            <div class = "box" style="background-color:hsl(0, 0%, 10%)">
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Education:</h2>
+                <i class="fas fa-graduation-cap"><h3 style="font-size:97%;display:inline;font-family: 'Raleway">   Hugh M. Cummings High School</h3></i>
+                <ul>
+                    <li>College-Prep Diploma </li>
+                    <li>Completed: June 2018</li>
+                    <li>Academic Honors: Valedictorian, Superintendent Award of Excellence</li>
+                </ul>
+                <i class="fas fa-university"><h3 style="font-size:97%;display:inline;font-family: 'Raleway"> University of North Carolina at Chapel Hill</h3></i>
+                <ul>
+                    <li>Major: Computer Science</li>
+                    <li>Expected Graduation: May 2022</li>
+                </ul>  
+            </div>
+            <div class = "box" style="background-color:hsl(0, 0%, 10%)">
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Work Experience:</h2>
+                <i class="fas fa-briefcase"><h3 style="font-size:97%;display:inline;font-family: 'Raleway"> Sales Associate | Polo Ralph Lauren | June 2017-January 2021</h3></i>
+                <ul>
+                    <li>Acknowledge all customers that enter store and ask open ended questions to fulfill needs.</li>
+                    <li>Keep assigned sections clean and organized.</li>
+                    <li>Communicate effectively with customers and other team members to maintain a positive work environment.</li>
+                </ul>
+                <i class="fas fa-briefcase"><h3 style="font-size:97%;display:inline;font-family: 'Raleway"> Cashier | Morehead Planetarium And Science Center | August 2018-March 2020</h3></i>
+                <ul>
+                    <li>Acknowledge all customers that enter store and ask open ended questions to fulfill needs.</li>
+                    <li>Keep gift shop clean, organized, and restocked.</li>
+                    <li>Communicate effectively with customers and other team members to maintain a positive work environment.</li>
+                </ul>
+            </div>
+            
+            <div class = "box" style="background-color:hsl(0, 0%, 10%)">
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Major and Additional Course Work for CS (BS):</h2>
+                <ul>
+                    <li>COMP 401: Foundations of Programming </li>
+                    <li>COMP 410: Data Structures</li>
+                    <li>COMP 411: Computer Organization</li>
+                    <li>COMP 426: Modern Web Programming</li>
+                    <li>COMP 435: Security Concepts</li>
+                    <li>COMP 521: Files and Databases</li>
+                    <li>MATH 231: Calculus of Functions of One Variable I</li>
+                    <li>MATH 232: Calculus of Functions of One Variable II</li>
+                    <li>MATH 233: Multi Variable Calculus I</li>
+                    <li>MATH 381: Discrete Mathematics</li>
+                    <li>PHYS 118: Mechanics and Relativity</li>
+                    <li>CHEM 101: General Descriptive Chemistry I</li>
+                    <li>CHEM 101L: Quantitative Chemistry Laboratory I</li>
+                </ul>
+            </div>
+            <div class = "box" style="background-color:hsl(0, 0%, 10%)">
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Programming Languages:</h2>
+                <ul>
+                    <li>Proficient in Java</li>
+                    <li>Proficient in JavaScript</li>
+                    <li>Proficient in HTML</li>
+                    <li>Proficient in CSS</li>
+                    <li>Proficient in SQLite</li>
+                    <li>Proficient in TypeScript</li>
+                    <li>Familiar with Python</li>
+                    <li>Familiar with MongoDB</li>
+                </ul>
+            </div>
+            <div class = "box" style="background-color:hsl(0, 0%, 10%)">
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Interests and Activities:</h2>
+                <ul>
+                    <li>Hugh M. Cummings High School Orchestra, 2014-­2018  </li>
+                    <li>Hugh M. Cummings High School Science Fair, 2015, 2016</li>
+                    <li>Blessed Sacrament Catholic Church Total Youth Ministries, 2014-2016</li>
+                    <li>Student Advisory Council, 2016-2018</li>
+                    <li>Student Government Association, 2016-2018</li>
+                    <li>Key Club, 2016-2018</li>
+                    <li>National Honors Society, 2017-2018</li>
+                    <li>Hack NC, 2019</li>
+                    <li>Quantum Hackathon, 2020</li>
+                    <li>Global Game Jam, 2020</li>
+                </ul>
+            </div>
+            <div class = "box" style="background-color:hsl(0, 0%, 10%)">
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Interests and Activities:</h2>
+                <ul>
+                    <li>Carousel Festival, 2016</li>
+                    <li>Toys for Tots, 2016</li>
+                    <li>Kiwanis Club Pancake Day, 2017</li>
+                    <li>FAFSA Night, 2018</li>
+                    <li>Junior Night, 2018</li>
+                </ul>
+            </div>
+            <div class = "box" style="background-color:hsl(0, 0%, 10%)">
+                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Languages</h2>
+                <ul>
+                    <li>Proficient in English and Spanish</li>
+                </ul>
+            </div>
+            <a href = "../Resume_Menjivar (Online).pdf" download style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
         </div>
+    </div>
+</div>
     </section>`
         $(elt).appendTo($root);
         $('head').append('<link rel="stylesheet" type="text/css" href="./css/night.css">');
@@ -279,9 +382,11 @@ function loadPage(hour){
                     </div>
                     <div class="columns box has-text-centered" style = "background-color:transparent;">
                         <div class="column" style=" color:black">
+                        
                             <figure class="image">
                                 <img src="./images/giphy-toast.gif" style="width:100%; height:auto; margin:0 auto;">
                             </figure>
+                            <h1 class="title" style = "color:black;">Designed and Created by:</h1>
                             <figure class="image">
                         <img src="../images/UDS.png" style="width:33%;margin:0 auto;" alt="Team signoff">
                     </figure>
@@ -295,7 +400,7 @@ function loadPage(hour){
                     <br>
                         </div>
                         <div class="column">
-                            <p><a href = "./Element Demo.zip" download>ELEMENT Demo</a> is a single player, 2D game developed by myself and 4 others for Global Game Jam 2020. </p>
+                            <p><a href = "../Element Demo.zip" download>ELEMENT Demo</a> is a single player, 2D game developed by myself and 4 others for Global Game Jam 2020. </p>
                             <p> You are Toastipher and your objective is to rescue your fellow kitchen utensil, the ice tray. Through rigorous trails, you encounter various ice creatures and your greatest foe, the Ice machine! Will you save Ice T. in time?</p>
                             <br>
                             <p class ="notification is-warning">This demo is a downloadable zip file (click the game title) To play the game, keep everything in the same file destination and run 'Element Demo'. Controls are arrow keys to move and left mouse click to fire toast.</p>
@@ -309,7 +414,109 @@ function loadPage(hour){
             <div class="content">
                 <h1 class="title" style = "color:black;">Resume</h1>
                 <h5 class="subtitle has-text-weight-normal"></h5>
-                <p>Will be posted soon -AMJ</p>
+                <div class ="resume_content box">
+                    <h1 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Andrés Menjívar, Jr.</h1>
+                    <div class = "box">
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Contact Information:</h2>
+                        <address style="font-family: 'Raleway', sans-serif;">
+                            <a href="mailto:menjivar.andres.j@unc.edu" style="color: rgb(40, 100, 190)">menjivar.andres.j@unc.edu</a><br>
+                            <a href="mailto:andres25@unc.edu" style="color: rgb(40, 100, 190)">andres25@live.unc.edu</a>
+                        </address>    
+                    </div>
+                    <div class = "box">
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Education:</h2>
+                        <i class="fas fa-graduation-cap"><h3 style="font-size:97%;display:inline;font-family: 'Raleway">   Hugh M. Cummings High School</h3></i>
+                        <ul>
+                            <li>College-Prep Diploma </li>
+                            <li>Completed: June 2018</li>
+                            <li>Academic Honors: Valedictorian, Superintendent Award of Excellence</li>
+                        </ul>
+                        <i class="fas fa-university"><h3 style="font-size:97%;display:inline;font-family: 'Raleway"> University of North Carolina at Chapel Hill</h3></i>
+                        <ul>
+                            <li>Major: Computer Science</li>
+                            <li>Expected Graduation: May 2022</li>
+                        </ul>  
+                    </div>
+                    <div class = "box">
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Work Experience:</h2>
+                        <i class="fas fa-briefcase"><h3 style="font-size:97%;display:inline;font-family: 'Raleway"> Sales Associate | Polo Ralph Lauren | June 2017-January 2021</h3></i>
+                        <ul>
+                            <li>Acknowledge all customers that enter store and ask open ended questions to fulfill needs.</li>
+                            <li>Keep assigned sections clean and organized.</li>
+                            <li>Communicate effectively with customers and other team members to maintain a positive work environment.</li>
+                        </ul>
+                        <i class="fas fa-briefcase"><h3 style="font-size:97%;display:inline;font-family: 'Raleway"> Cashier | Morehead Planetarium And Science Center | August 2018-March 2020</h3></i>
+                        <ul>
+                            <li>Acknowledge all customers that enter store and ask open ended questions to fulfill needs.</li>
+                            <li>Keep gift shop clean, organized, and restocked.</li>
+                            <li>Communicate effectively with customers and other team members to maintain a positive work environment.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class = "box">
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Major and Additional Course Work for CS (BS):</h2>
+                        <ul>
+                            <li>COMP 401: Foundations of Programming </li>
+                            <li>COMP 410: Data Structures</li>
+                            <li>COMP 411: Computer Organization</li>
+                            <li>COMP 426: Modern Web Programming</li>
+                            <li>COMP 435: Security Concepts</li>
+                            <li>COMP 521: Files and Databases</li>
+                            <li>MATH 231: Calculus of Functions of One Variable I</li>
+                            <li>MATH 232: Calculus of Functions of One Variable II</li>
+                            <li>MATH 233: Multi Variable Calculus I</li>
+                            <li>MATH 381: Discrete Mathematics</li>
+                            <li>PHYS 118: Mechanics and Relativity</li>
+                            <li>CHEM 101: General Descriptive Chemistry I</li>
+                            <li>CHEM 101L: Quantitative Chemistry Laboratory I</li>
+                        </ul>
+                    </div>
+                    <div class = "box">
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Programming Languages:</h2>
+                        <ul>
+                            <li>Proficient in Java</li>
+                            <li>Proficient in JavaScript</li>
+                            <li>Proficient in HTML</li>
+                            <li>Proficient in CSS</li>
+                            <li>Proficient in SQLite</li>
+                            <li>Proficient in TypeScript</li>
+                            <li>Familiar with Python</li>
+                            <li>Familiar with MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class = "box">
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Interests and Activities:</h2>
+                        <ul>
+                            <li>Hugh M. Cummings High School Orchestra, 2014-­2018  </li>
+                            <li>Hugh M. Cummings High School Science Fair, 2015, 2016</li>
+                            <li>Blessed Sacrament Catholic Church Total Youth Ministries, 2014-2016</li>
+                            <li>Student Advisory Council, 2016-2018</li>
+                            <li>Student Government Association, 2016-2018</li>
+                            <li>Key Club, 2016-2018</li>
+                            <li>National Honors Society, 2017-2018</li>
+                            <li>Hack NC, 2019</li>
+                            <li>Quantum Hackathon, 2020</li>
+                            <li>Global Game Jam, 2020</li>
+                        </ul>
+                    </div>
+                    <div class = "box">
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Interests and Activities:</h2>
+                        <ul>
+                            <li>Carousel Festival, 2016</li>
+                            <li>Toys for Tots, 2016</li>
+                            <li>Kiwanis Club Pancake Day, 2017</li>
+                            <li>FAFSA Night, 2018</li>
+                            <li>Junior Night, 2018</li>
+                        </ul>
+                    </div>
+                    <div class = "box">
+                        <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Languages</h2>
+                        <ul>
+                            <li>Proficient in English and Spanish</li>
+                        </ul>
+                    </div>
+                    <a href = "../Resume_Menjivar (Online).pdf" download style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
+                </div>
             </div>
         </div>
     </section>`
