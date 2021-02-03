@@ -423,7 +423,7 @@ function loadPage(hour){
                         <address style="font-family: 'Raleway', sans-serif;">
                             <a href="mailto:menjivar.andres.j@unc.edu" style="color: rgb(40, 100, 190)">menjivar.andres.j@unc.edu</a><br>
                             <a href="mailto:andres25@unc.edu" style="color: rgb(40, 100, 190)">andres25@live.unc.edu</a>
-                            <a href="https://www.linkedin.com/in/aboutmenjivar" style="color: rgb(40, 100, 190)">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/aboutmenjivar" style="color: rgb(40, 100, 190)">LinkedIn</a><br>
                         </address>    
                     </div>
                     <div class = "box">
