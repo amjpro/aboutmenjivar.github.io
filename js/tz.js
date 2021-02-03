@@ -178,6 +178,7 @@ function loadPage(hour){
                 <ul>
                     <li>Major: Computer Science</li>
                     <li>Expected Graduation: May 2022</li>
+                    <li>Current GPA: 3.226</li>
                 </ul>  
             </div>
             <div class = "box" style="background-color:hsl(0, 0%, 10%)">
@@ -437,6 +438,7 @@ function loadPage(hour){
                         <ul>
                             <li>Major: Computer Science</li>
                             <li>Expected Graduation: May 2022</li>
+                            <li>Current GPA: 3.226</li>
                         </ul>  
                     </div>
                     <div class = "box">
