@@ -4,65 +4,14 @@
     margin: 0;
     font-family: sans-serif;
 }
-.section{
-    color:rgb(150,150,150);
-}
-#container, #container1{
+
+#container {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:100%;
-}
-#container span {
-    color:black;
-    text-transform: uppercase;
-    display:block;
-}
-.text1{
-    color: white;
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 15px;
-    margin-bottom: 20px;
-    animation: text 3s 1; 
-} 
-@keyframes text{
-    0%{
-        color: white;
-    }
-    30%{
-        letter-spacing: 40px;
-    }
-    85%{
-        letter-spacing: 15px;
-    }
-}
-
-#container1 p {
-    color:rgb(70,18,161);
-    text-transform: uppercase;
-    display:block;
-}
-.moretext1{
-    color: black;
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 15px;
-    margin-bottom: 20px;
-    animation: moretext 3s 1; 
-} 
-@keyframes moretext{
-    0%{
-        color: black;
-    }
-    30%{
-        letter-spacing: 40px;
-    }
-    85%{
-        letter-spacing: 15px;
-    }
 }
 
 /* fade in animation */
@@ -85,212 +34,53 @@ html {
 * {
     box-sizing: border-box;
   }
-  
   body {
     margin: 0;
     font-family: Arial;
   }
-  
   .header {
     text-align: center;
     padding: 32px;
   }
-  
-  /* Create two equal columns that floats next to each other */
-  .cols {
+/* Create two equal columns that floats next to each other */
+.cols {
     float: left;
     width: 50%;
     padding: 10px;
-  }
-  
-  .cols img {
+}   
+.cols img {
     margin-top: 12px;
-  }
-  
-  /* Clear floats after the columns */
-  .rows:after {
+    width:100%
+}
+/* Clear floats after the columns */
+.rows:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-/* other things */
+/* remaining edits*/
 .break{
     height:1px;
     background-color: grey;
     width: 80%;
     margin: 0 auto;
 }
-  p{
+p{
       font-size: 20px;
-      color:rgb(150,150,150);
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* old css code, not in use at this moment */
-/* *{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-} */
-/* body{
-    background: #000;
-} */
-/* #intro{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-weight: 700px;
-    letter-spacing: 15px;
-     margin-top: 65%;
-    position: absolute;
-    bottom: 0%;
-    text-align: right;
-} */
-/* this sections covers the title */
-/* #container{
-    text-align: left;
-    position: relative;
-    top: 0%;
-    left: 0%;
-    transform: translate(0%, 0%);
-    width: 50%;
 }
-#container span {
-    text-transform: uppercase;
-    display:block;
-}
-.text1{
-    color: white;
-    font-size: 150px;
-    font-weight: 700;
-    letter-spacing: 15px;
-    margin-bottom: 20px;
-    background: black;
-    position: relative;
-    animation: text 3s 1; 
-} */
-/* .text2{
-    font-size: 30px;
-    color: greenyellow;
-    letter-spacing: 15px;
-} */
-/* this section will cover all elements with the
- scroll animation */
-/* #container{
-    
-} */
-/* .hideme
-{
-    opacity:0;
-} */
-/* link to 2048 */
-/* footer{
-    position:relative;
-    bottom:0%;
-    width:100%;
-    text-align:center;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
+.rows{
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
 }
 a:link{
-    color:greenyellow;
     text-decoration: none;
+    color: white;
+    font-weight: 200;
 }
 a:visited{
     text-decoration: none;
-    color:yellowgreen;
-} */
-/* animation for title */
-/* @keyframes text{
-    0%{
-        color: black;
-        margin-bottom:-30px;
-    }
-    30%{
-        letter-spacing: 40px;
-        margin-bottom:-30px;
-    }
-    85%{
-        letter-spacing: 15px;
-        margin-bottom: -30px;
-    }
-    
-} */
-/* well and right of well */
-/* .well {
-    float: left;
-    width: 45%;
-    max-width:480%;
-    position: relative;
-    background-image: url(./IMG_0771.JPG);
-    background-size:contain;
-    background-repeat: no-repeat;
-    height: 398px;
-    background-position: center;
- }
- .rofwell {
-    float: right;
-    width: 50%;
-    height: 390px;
-    display:inline-grid;
-     grid-template-rows:100%;
-     grid-template-areas: 
-         "main2";
- }
- .i2{
-     grid-area: main2;
-     text-align:left;
-     font-size:16px;
- } */
+    color:white;
+    font-weight: 200;
+}
