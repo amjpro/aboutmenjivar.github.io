@@ -142,13 +142,11 @@ function loadHTML(){
                         <br>
                     </div>
                     <div class="column">
-                        <p><a href = "../downloads/Element Demo.zip" download>ELEMENT Demo</a> is a single player, 2D game developed by myself and 4 others for Global Game Jam 2020. </p>
+                        <p><a href = "../Element/ElementDemoVer3/index.html">ELEMENT Demo</a> is a single player, 2D game developed by myself and 4 others for Global Game Jam 2020. </p>
                         <p> You are Toastipher and your objective is to rescue your fellow kitchen utensil, the ice tray. Through rigorous trails, you encounter various ice creatures and your greatest foe, the Ice machine! Will you save Ice T. in time?</p>
                         <br>
                         <p id = "warning" class ="notification is-warning">
-                            This demo is a downloadable zip file for windows for now (click the game title).
-                            To play the game, keep everything in the same file destination and run 
-                            'Element Demo'. Controls are arrow keys to move and left mouse click to fire toast.
+                            Not mobile friendly :(
                         </p>
                     </div>
                 </div>
