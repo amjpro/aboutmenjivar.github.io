@@ -301,8 +301,8 @@ function mobile (){
         || navigator.userAgent.match(/Windows Phone/i)) { 
             $('#welcome').css("background-size","75%");
             $('.text1').css("font-size","100px");
-            $('#burger').css("zoom","200%");
-            $('.navbar-item').css("font-size","200%");
+            $('#burger').css("zoom","300%");
+            $('.navbar-item').css("font-size","300%");
             $('#AM').css("font-size","225%");
             $('#Photography').css("font-size","225%");
             $('.cols').css("zoom","35%");
