@@ -84,3 +84,8 @@ a:visited{
     color:white;
     font-weight: 200;
 }
+#page{
+    background-size:contain; 
+    background-repeat: repeat; 
+    background-position: center;
+}

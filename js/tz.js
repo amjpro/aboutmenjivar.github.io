@@ -274,7 +274,6 @@ function loadmode(hour){
         $('#navbarBasicExample').css("background-color","hsl(0, 0%, 4%)");
         $('section > div > div > h1, h5, p').css("color","rgb(150,150,150)");
         $('.moretext1').css("color","rgb(70,18,161)")
-        $('.rows').css("background-image", 'url("../images/me_night.png")');
         $('#me').attr("src","../images/Andres_Logo_BlueBlack.png")
         $('.column > h1').css("color", "rgb(150,150,150)");
         $('.resume_content').css("background-color", "hsl(0,0%,4%)");
@@ -286,7 +285,6 @@ function loadmode(hour){
         $('#navbarBasicExample').css("background-color","#363636");
         $('section > div > div > h1, h5, p').css("color","black");
         $('.moretext1').css("color","black")
-        $('.rows').css("background-image", 'url("../images/me.png")');
         $('#me').attr("src","../images/Andres_Logo_BlueWhite.png")
         $('.column > h1').css("color", "black");
     }
