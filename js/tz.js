@@ -7,7 +7,7 @@ function loadHTML(){
         `<section id="welcome" class="hero is-fullheight is-bold" style="background-size: 300px; background-repeat: no-repeat; background-position: center;">
             <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed;width: 100%;">
                 <div class="navbar-brand">
-                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <a id="burger" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -292,8 +292,28 @@ function loadmode(hour){
     }
     $("#warning").css("color","black");
 }
+
+function mobile (){
+    if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i)  
+        || navigator.userAgent.match(/iPad/i)  
+        || navigator.userAgent.match(/iPod/i) 
+        || navigator.userAgent.match(/BlackBerry/i) 
+        || navigator.userAgent.match(/Windows Phone/i)) { 
+            $('#welcome').css("background-size","75%");
+            $('.text1').css("font-size","100px");
+            $('#burger').css("zoom","200%");
+            $('.navbar-item').css("font-size","200%");
+            $('#AM').css("font-size","225%");
+            $('#Photography').css("font-size","225%");
+            $('.cols').css("zoom","35%");
+            $('#Projects').css("font-size","225%");
+            $('#Resume').css("font-size","225%");
+            $('p').css("font-size","100%");
+    }
+}
 $(function() {
     loadHTML();
     loadmode(currHour);
+    mobile();
 });
 
