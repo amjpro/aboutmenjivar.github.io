@@ -121,6 +121,7 @@ window.addEventListener('keydown', (event) => {
             case 'ArrowRight': game.move('right'); moving(game); winning(game); losing(game); upscore(game);break;
         }
 });
+
 //<embed src = "Exploration_1.mp3" autostart = "true" loop = "true" height = "0" width = '0'>
 
 //game.onMove(moving);
