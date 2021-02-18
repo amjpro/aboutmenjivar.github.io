@@ -134,7 +134,7 @@ function SwipePrevent(e){
     //cooperated with Alex Harvey (I did most of it though :])
     records.push(e.touches[0])
     if (e.type == 'touchend'){
-        if(records.length > 10){
+        if(records.length > 5){
         let initX = records[0].clientX
         let initY = records[0].clientY
         let finalX = records[records.length-2].clientX
