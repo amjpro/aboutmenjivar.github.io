@@ -9,22 +9,6 @@
         <title>2048</title>
     </head>
     <body>
-      <script>
-        function disableScroll() { 
-            // Get the current page scroll position 
-            scrollTop = window.pageYOffset || document.documentElement.scrollTop; 
-            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft, 
-          
-                // if any scroll is attempted, set this to the previous value 
-                window.onscroll = function() { 
-                    window.scrollTo(scrollLeft, scrollTop); 
-                }; 
-        } 
-  
-        function enableScroll() { 
-            window.onscroll = function() {}; 
-        }
-      </script>
       <section class="primary">
         <div class="container">
           <h1>
@@ -46,43 +30,5 @@
       
       <div id = "howto">Good Luck! <a href = "../index.html">return home</a></div>
       <script src = "./js/view.js"></script>
-      <script>
-        let records = [];
-
-        document.addEventListener('touchstart',SwipePrevent);
-        document.addEventListener('touchmove',SwipePrevent);
-        document.addEventListener('touchend',SwipePrevent);
-
-        function SwipePrevent(e){
-            //cooperated with Alex Harvey (I did most of it though :])
-            records.push(e.touches[0])
-            if (e.type == 'touchend'){
-                if(records.length > 15){
-                let initX = records[0].clientX
-                let initY = records[0].clientY
-                let finalX = records[records.length-2].clientX
-                let finalY = records[records.length-2].clientY
-
-                let differenceX = finalX - initX;
-                let differenceY = finalY - initY;
-
-                if (Math.abs(differenceX) > Math.abs(differenceY)){
-                    if ( differenceX > 0){
-                        game.move('right'); moving(game); winning(game); losing(game); upscore(game);
-                    } else {
-                        game.move('left'); moving(game); winning(game); losing(game); upscore(game);
-                    }
-                } else {
-                    if ( differenceY > 0){
-                        game.move('down'); moving(game); winning(game); losing(game); upscore(game);
-                    } else {
-                        game.move('up'); moving(game); winning(game); losing(game); upscore(game);
-                    }
-                }
-                records = [];
-                }
-            }
-        }
-      </script>
       </body>
 </html>
