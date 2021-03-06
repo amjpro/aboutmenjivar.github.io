@@ -1,4 +1,4 @@
 # aboutmenjivar.github.io
-This is a personal site/portfolio of my work thus far.
-I had a previous site, amjpro.github.io, but all content will be moved from there to here in due time.
-Assuming the line above is outdated, Welcome to my site!
+<h1>Welcome!</h1>
+<h3>My name is Andres, and this is the repository to my personal site! Currently, it is still under development, but feel free to check it out</h3>
+<a href = "www.aboutmenjivar.com">Click here</a>
