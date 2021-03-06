@@ -131,7 +131,7 @@ document.querySelector('#game').addEventListener('touchmove',SwipePrevent);
 document.querySelector('#game').addEventListener('touchend',SwipePrevent);
 
 function SwipePrevent(e){
-    //cooperated with Alex Harvey (I did most of it though :])
+    //discussed with Alex Harvey (I did it though :])
     records.push(e.touches[0])
     e.preventDefault();
     if (e.type == 'touchend'){
