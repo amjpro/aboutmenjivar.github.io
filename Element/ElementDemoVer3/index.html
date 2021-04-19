@@ -86,17 +86,19 @@
     </head>
 
     <body>
+        
+        <center>
         <div class="gm4html5_div_class" id="gm4html5_div_id" style="display:inline;">
             <!-- Create the canvas element the game draws to -->
-            <canvas id="canvas" width="1024" height="768" >
+            <canvas id="canvas" width="650%" height="487.5%" >
                      <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
-        <div class="box" style="display: inline;position:absolute; top:0px; width:20%; margin-left:5px;background-color: transparent;">
+        <div class="box" style="display: inline;position:relative; bottom:0px; width:20%;background-color: transparent;">
             <h3 class="title">Rules/Controls:<h3>
                 <ul style="color:black;">
                     <li>-Use WASD/Arrow keys to move</li>
-                    <li>-Left mouse click will shoot toast</li>
+                    <li>-J/Left mouse click will shoot toast</li>
                     <li>-Your mouse arrow will be used to aim</li>
                     <li>-If you die, you may restart by select 'R'</li>
                     <li>-If you have not died and would like to restart, please refresh the page</li>
@@ -107,7 +109,7 @@
                 background-size: 200% 200%;
                 animation: gradient 10s ease infinite;">Return Home</button>
         </div>
-
+    </center>
         <!-- Run the game code -->
         <script type="text/javascript" src="html5game/ElementDemoVer2.js?BORZB=1939414017"></script>
         <script>window.onload = GameMaker_Init;</script>
