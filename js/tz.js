@@ -20,6 +20,7 @@ function loadHTML(){
                         <a class="navbar-item" href = "#Photography">Photography</a>
                         <a class="navbar-item" href = "#Projects">Projects</a>
                         <a class="navbar-item" href = "#Resume">Resume</a>
+                        <a class="navbar-item" href = "../harvey/index.html">About Harvey</a>
                     </div>
                     <div class = "navbar-end"></div>
                 </div>
