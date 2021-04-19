@@ -267,7 +267,7 @@ function loadHTML(){
     $(elt).appendTo($root);
 }
 function loadmode(hour){
-    if (hour >=6 || hour>=18){
+    if (hour <=6 || hour>=18){
         $('head').append('<link rel="stylesheet" type="text/css" href="./css/night.css">');
         $('#welcome').css({"background-image": "url(./images/Andres_Logo_night.png)"});
         $('.navbar').css("background-color","hsl(0, 0%, 4%)");
