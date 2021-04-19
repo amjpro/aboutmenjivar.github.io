@@ -266,6 +266,7 @@ function loadHTML(){
         </section>`
     $(elt).appendTo($root);
 }
+// this is to force an update, will delete later
 function loadmode(hour){
     if (hour <=6 || hour>=18){
         $('head').append('<link rel="stylesheet" type="text/css" href="./css/night.css">');
