@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--This is mine-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <title>About Harvey</title>
     </head>
     <body>
-        <center>
-            <div class = "box" style="width:75%;background-color:transparent">
-                <h2 style="font-family: 'Raleway', sans-serif; color:rgb(0,0,0); font-size: 200%;">Alexander Harvey Resume PDF</h2>
-                <a href = "../downloads/Alex Harvey Functional Resume Winter 2020 - coding version.pdf" download style="font-family: 'Raleway', sans-serif; color:rgb(114, 114, 114);font-size:200%;">PDF of Resume</a> 
-            </div>
-            <div style="bottom:0px; position:relative;">
-                <a href = "../index.html" style="font-family: 'Raleway', sans-serif; color:rgb(114, 114, 114);font-size:200%; bottom:0px; position:relative;">Home Page</a>
-            </div>
-        </center>
+        <div id = "page">
+             <section id="welcome" class="hero is-fullheight is-bold" style="background-size: contain; background-repeat: no-repeat; background-position: center;">
+                <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed;width: 100%;">
+                    <div class="navbar-brand">
+                        <a id="burger" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item " href = "#page" style = "color:white" onMouseOver="this.style.color='rgb(42, 0, 0)'"
+                            onMouseOut="this.style.color='white'">Home</a>
+                            <a class="navbar-item " href = "#AH" style = "color:white" onMouseOver="this.style.color='rgb(42, 0, 0)'"
+                            onMouseOut="this.style.color='white'">About Me</a>
+                            <a class="navbar-item " href = "#Music" style = "color:white" onMouseOver="this.style.color='rgb(42, 0, 0)'"
+                            onMouseOut="this.style.color='white'">Music</a>
+                            <a class="navbar-item " href = "#Projects" style = "color:white" onMouseOver="this.style.color='rgb(42, 0, 0)'"
+                            onMouseOut="this.style.color='white'">Projects</a>
+                            <a class="navbar-item " href = "#Resume" style = "color:white" onMouseOver="this.style.color='rgb(42, 0, 0)'"
+                            onMouseOut="this.style.color='white'">Resume</a>
+                            <a class="navbar-item " href = "../index.html" style = "color:white" onMouseOver="this.style.color = 'rgb(42,0,0)'"
+                            onMouseOut="this.style.color='white'">About Menjivar</a>
+                        </div>
+                        <div class = "navbar-end"></div>
+                    </div>
+                </nav>
+                <div id = "container">
+                    <span class = "text1">Alex Harvey</span>
+                </div>
+            </section>
+            <section class="section" id="Resume">
+                <div class = "container">
+                    <div class = "content">
+                        <div class = "box" style="background-color:transparent;">
+                            <h2 style="font-family: 'Raleway', sans-serif; color:rgb(0,0,0); font-size: 200%;">Alexander Harvey Resume PDF</h2>
+                            <a href = "./downloads/Alex Harvey Functional Resume Winter 2020 - coding version.pdf" download style="font-family: 'Raleway', sans-serif; color:rgb(114, 114, 114);font-size:200%;">PDF of Resume</a> 
+                        </div>
+                        <div class = "box" style="background-color:transparent;">
+                            <h2 style="font-family: 'Raleway', sans-serif; color:rgb(0,0,0); font-size: 200%;">Editor's Note:</h2>
+                            <a href = "../index.html" style="font-family: 'Raleway', sans-serif; color:rgb(114, 114, 114);font-size:200%; bottom:0px; position:relative;">
+                                <p style="font-size: smaller">Page Under development : ], in the meantime -> Home Page</p>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        
+        
     </body>
 </html>
