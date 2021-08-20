@@ -34,11 +34,11 @@ function loadHTML(){
                 <div class="content">
                     <h1 class="title" >Hello!</h1>
                     <h5 class="subtitle has-text-weight-normal">-An Informal Introduction</h5>
-                    <p> My name is Andres Menjivar Jr. and I welcome you to my personal site! 
-                        Currently, I am a junior studying Computer Science at The University of North Carolina at Chapel Hill. 
+                    <p> My name is Andres Menjivar Jr. and welcome to my personal site! 
+                        Currently, I am a senior studying Computer Science at The University of North Carolina at Chapel Hill. 
                         I am grateful to be a first generation student, with my older sibling being graduate of UNC-CH in 2016. 
                         Prior to university life, I was heavily focused in student government and had hobbies such as playing cello, digital art design, and mobile photography. 
-                        These hobbies remain today along with my work on small projects (such as this), which show a snippet of my knowledge of the field. 
+                        These hobbies remain today along with my work on small projects (such as this), which show a snippet of my knowledge in the field. 
                         As this site continues to expand, I hope my work continues to express this.
                     </p>
                 </div>
@@ -60,11 +60,11 @@ function loadHTML(){
                             <img src="./images/n5.jpg">
                         </div>
                         <div class="cols">
-                            <img src="./images/n2.jpg">
+                            <img src="./images/DC-1.jpg">
                             <img src="./images/candle.GIF">
                             <img src="./images/winter_blossom.jpg">
                             <img src="./images/n3.jpg">
-                            <img src="./images/n4.jpg">
+                            <img src="./images/DC-6.jpg">
                         </div>
                     </div>
                 </div>
@@ -78,6 +78,9 @@ function loadHTML(){
                     <h5 class="subtitle has-text-weight-normal">-cool caption to be :)</h5>
                     <p>Some projects I have personally enjoyed creating. Hope you enjoy!</p>
                 </div>
+                <p class ="notification is-danger">
+                            Note for Students: Attempts to use code from these projects is subject to Honor Code. These projects are posted strictly for the enjoyment of the site.
+                </p>
                 <div class="columns box has-text-centered" style = "background-color:transparent; border-radius:25px;">
                     <div class="column">
                         <figure class="image">
@@ -131,7 +134,7 @@ function loadHTML(){
                         </figure>
                         <h1 class="title">Designed and Created by:</h1>
                         <figure class="image">
-                            <img src="../images/UDS.png" style="width:33%;margin:0 auto;" alt="Team signoff">
+                            <img src="../images/UDSv2.png" style="width:33%;margin:0 auto;" alt="Team signoff">
                         </figure>
                         <strong>Under Development Studios</strong>
                         <br>
@@ -180,12 +183,12 @@ function loadHTML(){
                             <ul>
                                 <li>Major: Computer Science</li>
                                 <li>Expected Graduation: May 2022</li>
-                                <li>Current GPA: 3.226</li>
+                                <li>Current GPA: 3.237</li>
                             </ul>  
                         </div>
                         <div class = "box">
                             <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Work Experience:</h2>
-                            <i class="fas fa-briefcase"><h3 style="font-size:97%;display:inline;font-family: 'Raleway"> Sales Associate | Polo Ralph Lauren | June 2017-January 2021</h3></i>
+                            <i class="fas fa-briefcase"><h3 style="font-size:97%;display:inline;font-family: 'Raleway"> Sales Associate | Polo Ralph Lauren | June 2017-July 2021</h3></i>
                             <ul>
                                 <li>Acknowledge all customers that enter store and ask open ended questions to fulfill needs.</li>
                                 <li>Keep assigned sections clean and organized.</li>
@@ -206,10 +209,13 @@ function loadHTML(){
                                 <li>COMP 411: Computer Organization</li>
                                 <li>COMP 426: Modern Web Programming</li>
                                 <li>COMP 435: Security Concepts</li>
+                                <li>COMP 455: Models of Languages and Computation</li>
                                 <li>COMP 521: Files and Databases</li>
+                                <li>COMP 550: Algorithms and Analysis</li>
                                 <li>MATH 231: Calculus of Functions of One Variable I</li>
                                 <li>MATH 232: Calculus of Functions of One Variable II</li>
                                 <li>MATH 233: Multi Variable Calculus I</li>
+                                <li>MATH 347: Linear Algebra for Application</li>
                                 <li>MATH 381: Discrete Mathematics</li>
                                 <li>PHYS 118: Mechanics and Relativity</li>
                                 <li>CHEM 101: General Descriptive Chemistry I</li>
@@ -260,7 +266,7 @@ function loadHTML(){
                                 <li>Proficient in English and Spanish</li>
                             </ul>
                         </div>
-                        <a href = "../downloads/Resume_Menjivar (Online).pdf" download style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
+                        <a href = "../downloads/Resume_Menjivar (COMP SCI F21).pdf" target="_blank" style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
                     </div>
                 </div>
             </div>
