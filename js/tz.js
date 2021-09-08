@@ -20,6 +20,7 @@ function loadHTML(){
                         <a class="navbar-item" href = "#Photography">Photography</a>
                         <a class="navbar-item" href = "#Projects">Projects</a>
                         <a class="navbar-item" href = "#Resume">Resume</a>
+                        <a class="navbar-item" href = "#R">Site Recommendations</a>
                         <a class="navbar-item" href = "../harvey/index.html">About Harvey</a>
                     </div>
                     <div class = "navbar-end"></div>
@@ -52,19 +53,19 @@ function loadHTML(){
                     <h5 class="subtitle has-text-weight-normal hideme">-I have come to develop a liking to strictly mobile photography, with these being some of my large collection. Enjoy!</h5>
                     <div class="rows"> 
                         <div class="cols">
-                            <img src="./images/bell_tower.jpg">
-                            <img src="./images/well.JPG">
-                            <img src="./images/n1.jpg">
-                            <img src="./images/blue_rose.JPG">
-                            <img src="./images/piano.JPG">
-                            <img src="./images/n5.jpg">
+                            <img src="./images/galary/r1.jpg">
+                            <img src="./images/galary/r4.JPG">
+                            <img src="./images/galary/r10.jpg">
+                            <img src="./images/galary/r2.JPG">
+                            <img src="./images/galary/r5.JPG">
+                            <img src="./images/galary/r15.jpg">
                         </div>
                         <div class="cols">
-                            <img src="./images/DC-1.jpg">
-                            <img src="./images/candle.GIF">
-                            <img src="./images/winter_blossom.jpg">
-                            <img src="./images/n3.jpg">
-                            <img src="./images/DC-6.jpg">
+                            <img src="./images/galary/r16.jpg">
+                            <img src="./images/galary/r17.GIF">
+                            <img src="./images/galary/r3.jpg">
+                            <img src="./images/galary/r8.jpg">
+                            <img src="./images/galary/r11.jpg">
                         </div>
                     </div>
                 </div>
@@ -78,7 +79,7 @@ function loadHTML(){
                     <h5 class="subtitle has-text-weight-normal">-cool caption to be :)</h5>
                     <p>Some projects I have personally enjoyed creating. Hope you enjoy!</p>
                 </div>
-                <p class ="notification is-danger">
+                <p class ="notification is-warning">
                             Note for Students: Attempts to use code from these projects is subject to Honor Code. These projects are posted strictly for the enjoyment of the site.
                 </p>
                 <div class="columns box has-text-centered" style = "background-color:transparent; border-radius:25px;">
@@ -151,6 +152,8 @@ function loadHTML(){
                         <br>
                         <p id = "warning" class ="notification is-warning">
                             Not mobile friendly :(
+                            <br>
+                            Also Still buggy :/
                         </p>
                     </div>
                 </div>
@@ -270,40 +273,47 @@ function loadHTML(){
                     </div>
                 </div>
             </div>
+        </section>
+        <div class = "break"></div>
+        <section class="section" id = "R">
+            <div class="container">
+                <div class="content">
+                    <h1 class="title" >Site recommendations</h1>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeSnL2gK1gS9YFNDiioSnW_FxKIe95lXsS-g3YeetNt1bAfw/viewform?embedded=true" width="100%" height="800"frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+            </div>
         </section>`
     $(elt).appendTo($root);
 }
-// this is to force an update, will delete later
-//this is to force an update again, will delete this too, promise
 function loadmode(hour){
     if (hour <=6 || hour>=18){
         $('head').append('<link rel="stylesheet" type="text/css" href="./css/night.css">');
-        $('#welcome').css({"background-image": "url(./images/Andres_Logo_night.png)"});
+        $('#welcome').css({"background-image": "url(./images/AMJ_logo/Andres_Logo_night.png)"});
         $('.navbar').css("background-color","hsl(0, 0%, 4%)");
         $('#navbarBasicExample').css("background-color","hsl(0, 0%, 4%)");
         $('section > div > div > h1, h5, p').css("color","rgb(150,150,150)");
         $('.moretext1').css("color","rgb(70,18,161)")
-        $('#me').attr("src","../images/Andres_Logo_BlueBlack.png")
+        $('#me').attr("src","../images/AMJ_logo/Andres_Logo_BlueBlack.png")
         $('.column > h1').css("color", "rgb(150,150,150)");
         $('.resume_content').css("background-color", "hsl(0,0%,4%)");
         $('.resume_content > .box').css("background-color", "hsl(0,0%,10%)");
-        $('#AM').css({"background-image": `url(./images/random${Math.floor(Math.random() * (6-1)+1)}.png)`});
-        $('#Photography').css({"background-image": `url(./images/random${Math.floor(Math.random() * (6-1)+1)}.png)`});
-        $('#Projects').css({"background-image": `url(./images/random${Math.floor(Math.random() * (6-1)+1)}.png)`});
-        $('#Resume').css({"background-image": `url(./images/random${Math.floor(Math.random() * (6-1)+1)}.png)`});
+        $('#AM').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
+        $('#Photography').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
+        $('#Projects').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
+        $('#Resume').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
     } else {
         $('head').append('<link rel="stylesheet" type="text/css" href="./css/day.css">');
-        $('#welcome').css({"background-image": "url(./images/Andres_Logo_Day.png)"});
+        $('#welcome').css({"background-image": "url(./images/AMJ_logo/Andres_Logo_Day.png)"});
         $('.navbar').css("background-color","#363636");
         $('#navbarBasicExample').css("background-color","#363636");
         $('section > div > div > h1, h5, p').css("color","black");
         $('.moretext1').css("color","black")
-        $('#me').attr("src","../images/Andres_Logo_BlueWhite.png")
+        $('#me').attr("src","../images/AMJ_logo/Andres_Logo_BlueWhite.png")
         $('.column > h1').css("color", "black");
-        $('#AM').css({"background-image": `url(./images/randomd${Math.floor(Math.random() * (6-1)+1)}.png)`});
-        $('#Photography').css({"background-image": `url(./images/randomd${Math.floor(Math.random() * (6-1)+1)}.png)`});
-        $('#Projects').css({"background-image": `url(./images/randomd${Math.floor(Math.random() * (6-1)+1)}.png)`});
-        $('#Resume').css({"background-image": `url(./images/randomd${Math.floor(Math.random() * (6-1)+1)}.png)`});
+        $('#AM').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
+        $('#Photography').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
+        $('#Projects').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
+        $('#Resume').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
     }
     $("#warning").css("color","black");
 }
