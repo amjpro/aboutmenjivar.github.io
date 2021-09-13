@@ -1,6 +1,6 @@
 let currDate = new Date();
 let currHour = currDate.getHours();
-
+//to force update
 function loadHTML(){
     const $root = $('#page');
     let elt = 
