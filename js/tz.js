@@ -280,7 +280,7 @@ function loadHTML(){
             <div class="container">
                 <div class="content">
                     <h1 class="title" >Site recommendations</h1>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeSnL2gK1gS9YFNDiioSnW_FxKIe95lXsS-g3YeetNt1bAfw/viewform?embedded=true" width="100%" height="800"frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeSnL2gK1gS9YFNDiioSnW_FxKIe95lXsS-g3YeetNt1bAfw/viewform?embedded=true" width="100%" height="800px"frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
         </section>`
