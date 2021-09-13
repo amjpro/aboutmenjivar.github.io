@@ -1,7 +1,7 @@
 html{
     overflow:hidden;
     height:100%;
-    background-image: linear-gradient(90deg, rgb(106, 24, 24), rgb(79, 35, 10), rgb(167, 156, 0), rgb(255, 255, 255));
+    background-image: linear-gradient(90deg, rgb(4,20,69), rgb(79, 35, 10), rgb(56, 55, 112), rgb(35, 46, 78));
     background-repeat: no-repeat;
     background-size: 800% 800%;
     animation: gradient 20s ease infinite;
@@ -18,7 +18,7 @@ html{
 	} 
 }
 #welcome{
-    background-image: url(/harvey/images/AH_logo.png);
+    background-image: url(../images/zook.png);
     background-size:contain; 
     background-repeat: no-repeat; 
     background-position:center;
@@ -41,37 +41,24 @@ html{
 }
 #container span {
     color:white;
-    text-transform: uppercase;
     text-align: center;
-    display:block;
+    display:inline-block;
 }
 .text1{
-    color: black;
-    font-size: 80px;
+    font-size: 600%;
     font-weight: 700;
-    letter-spacing: 15px;
-    margin-bottom: 20%;
-    animation: text 3s 1; 
-
+    letter-spacing: 100%;
+    margin-bottom: 20%; 
 } 
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8{
+    animation: text 4s 1 ease-in-out;
+}
 @keyframes text{
     0%{
-        color: transparent;
-        text-shadow: 0px 0px 20px #000;
-    }
-    75%{
-        color: transparent;
-        text-shadow: 0px 0p 50px #000;
-    }
-    85%{
-        color: transparent;
-        text-shadow: 0px 0px 100px #000;
-    }
-    95%{
+        transform:rotateY(90deg);
         color: white;
-        text-shadow: 0px 0px 20px #fff;
     }
-}
-.navbar, #navbarBasicExample{
-    background-image:linear-gradient( rgb(42, 0, 0), transparent);
+    100%{
+        transform:rotateY(0deg);
+    }
 }
