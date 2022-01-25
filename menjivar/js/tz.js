@@ -21,8 +21,7 @@ function loadHTML(){
                         <a class="navbar-item" href = "#Projects">Projects</a>
                         <a class="navbar-item" href = "#Resume">Resume</a>
                         <a class="navbar-item" href = "#R">Site Recommendations</a>
-                        <a class="navbar-item" href = "../harvey/index.html">About Harvey</a>
-                        <a class="navbar-item" href = "../zook/index.html">About Zook</a>
+                        <a class="navbar-item" href = "../index.html" style=""><img src="./images/UDSv2.png"></a>
                     </div>
                     <div class = "navbar-end"></div>
                 </div>
@@ -115,7 +114,7 @@ function loadHTML(){
                         </figure>
                         <h1 class="title">Designed and Created by:</h1>
                         <figure class="image">
-                            <img src="../images/team_signoff.png" style="width:33%;margin:0 auto;" alt="Team signoff">
+                            <img src="./images/team_signoff.png" style="width:33%;margin:0 auto;" alt="Team signoff">
                         </figure>
                         <strong>Spicy 9 Adventure</strong>
                         <br>
@@ -136,7 +135,7 @@ function loadHTML(){
                         </figure>
                         <h1 class="title">Designed and Created by:</h1>
                         <figure class="image">
-                            <img src="../images/UDSv2.png" style="width:33%;margin:0 auto;" alt="Team signoff">
+                            <img src="./images/UDSv2.png" style="width:33%;margin:0 auto;" alt="Team signoff">
                         </figure>
                         <strong>Under Development Studios</strong>
                         <br>
@@ -148,7 +147,7 @@ function loadHTML(){
                         <br>
                     </div>
                     <div class="column">
-                        <p><a href = "../Element/ElementDemoVer3/index.html">ELEMENT Demo</a> is a single player, 2D game developed by myself and 4 others for Global Game Jam 2020. </p>
+                        <p><a href = './Element/ElementDemoVer3/index.html'>ELEMENT Demo</a> is a single player, 2D game developed by myself and 4 others for Global Game Jam 2020. </p>
                         <p> You are Toastipher and your objective is to rescue your fellow kitchen utensil, the ice tray. Through rigorous trails, you encounter various ice creatures and your greatest foe, the Ice machine! Will you save Ice T. in time?</p>
                         <br>
                         <p id = "warning" class ="notification is-warning">
@@ -270,7 +269,7 @@ function loadHTML(){
                                 <li>Proficient in English and Spanish</li>
                             </ul>
                         </div>
-                        <a href = "../downloads/Resume_Menjivar (COMP SCI F21).pdf" target="_blank" style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
+                        <a href = "./downloads/Resume_Menjivar (COMP SCI F21).pdf" target="_blank" style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
                     </div>
                 </div>
             </div>
@@ -294,7 +293,7 @@ function loadmode(hour){
         $('#navbarBasicExample').css("background-color","hsl(0, 0%, 4%)");
         $('section > div > div > h1, h5, p').css("color","rgb(150,150,150)");
         $('.moretext1').css("color","rgb(70,18,161)")
-        $('#me').attr("src","../images/AMJ_logo/Andres_Logo_BlueBlack.png")
+        $('#me').attr("src","./images/AMJ_logo/Andres_Logo_BlueBlack.png")
         $('.column > h1').css("color", "rgb(150,150,150)");
         $('.resume_content').css("background-color", "hsl(0,0%,4%)");
         $('.resume_content > .box').css("background-color", "hsl(0,0%,10%)");
@@ -309,7 +308,7 @@ function loadmode(hour){
         $('#navbarBasicExample').css("background-color","#363636");
         $('section > div > div > h1, h5, p').css("color","black");
         $('.moretext1').css("color","black")
-        $('#me').attr("src","../images/AMJ_logo/Andres_Logo_BlueWhite.png")
+        $('#me').attr("src","./images/AMJ_logo/Andres_Logo_BlueWhite.png")
         $('.column > h1').css("color", "black");
         $('#AM').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
         $('#Photography').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});

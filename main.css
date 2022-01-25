@@ -6,7 +6,7 @@ html {
     animation: gradient 20s ease infinite;
 }
 #welcome{
-    background-image: url(../images/UDSv2.png);
+    background-image: url(./images/UDSv2.png);
     background-size: contain;
 }
 @keyframes gradient {
@@ -79,8 +79,9 @@ html {
 .break{
     
     background-color: grey;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    height:2px;
 }
 p{
       font-size: 20px;
@@ -100,3 +101,23 @@ a:visited{
     color:white;
     font-weight: 200;
 }
+
+/* moving border
+#owen{
+    border: 4px;
+    background-image: linear-gradient(45deg, transparent, white, transparent, transparent);
+    background-size: 800% 200%;
+    animation: gradient 20s ease infinite;
+}
+#andres{
+    border: 4px;
+    background-image: linear-gradient(90deg, transparent, white, transparent, transparent);
+    background-size: 800% 200%;
+    animation: gradient 20s ease infinite;
+}
+#alex {
+    border: 4px;
+    background-image: linear-gradient(-45deg, transparent, white, transparent, transparent);
+    background-size: 800% 200%;
+    animation: gradient 20s ease infinite;
+} */
