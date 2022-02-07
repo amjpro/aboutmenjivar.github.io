@@ -35,12 +35,19 @@ function loadHTML(){
                 <div class="content">
                     <h1 class="title" >Hello!</h1>
                     <h5 class="subtitle has-text-weight-normal">-An Informal Introduction</h5>
-                    <p> My name is Andres Menjivar Jr. and welcome to my personal site! 
-                        Currently, I am a senior studying Computer Science at The University of North Carolina at Chapel Hill. 
-                        I am grateful to be a first generation student, with my older sibling being graduate of UNC-CH in 2016. 
-                        Prior to university life, I was heavily focused in student government and had hobbies such as playing cello, digital art design, and mobile photography. 
-                        These hobbies remain today along with my work on small projects (such as this), which show a snippet of my knowledge in the field. 
-                        As this site continues to expand, I hope my work continues to express this.
+                    <p>
+                        My name is Andres Menjivar Jr. and welcome to my personal site! 
+                        Currently, I am a senior studying Computer Science (BS) and a minor in Neuroscience at 
+                        The University of North Carolina at Chapel Hill. I am grateful to be a first generation student, 
+                        with my older sibling being graduate of UNC-CH in 2016. 
+                        Prior to university life, I was heavily focused in student government and had hobbies such as playing cello, 
+                        digital art design, and mobile photography. These hobbies remain today and are presented throughout some of my work 
+                        (such as this). This site has grown from an individual project 
+                        to an accumulation of work from me and my colleagues. Being the organizer and head developer has been an exciting 
+                        experience, giving me a new sense of responsibility and teamwork. While I love programming, I also enjoy making the 
+                        user experience the best it can be. I continue improving my previous projects, making them more accessabile to employers, 
+                        colleagues, and anyone who would like to view them. They show a snippet of my knowledge in the field, 
+                        and as this site continues to expand, I hope my work continues to express this.
                     </p>
                 </div>
             </div>
@@ -269,7 +276,7 @@ function loadHTML(){
                                 <li>Proficient in English and Spanish</li>
                             </ul>
                         </div>
-                        <a href = "./downloads/Resume_Menjivar (COMP SCI F21).pdf" target="_blank" style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
+                        <a href = "./downloads/Resume_Menjivar (F1).pdf" target="_blank" style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
                     </div>
                 </div>
             </div>
