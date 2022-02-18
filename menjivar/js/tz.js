@@ -176,7 +176,81 @@ function loadHTML(){
                 <div class="content">
                     <h1 class="title">Resume</h1>
                     <div class ="resume_content box">
-                        <h1 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Andrés Menjívar, Jr.</h1>
+                        <a href = "./downloads/Resume_Menjivar (F1).pdf" target="_blank" style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class = "break"></div>
+        <section class="section" id = "R">
+            <div class="container">
+                <div class="content">
+                    <h1 class="title" >Site recommendations</h1>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeSnL2gK1gS9YFNDiioSnW_FxKIe95lXsS-g3YeetNt1bAfw/viewform?embedded=true" width="100%" height="800px"frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+            </div>
+        </section>`
+    $(elt).appendTo($root);
+}
+function loadmode(hour){
+    if (hour <=6 || hour>=18){
+        $('head').append('<link rel="stylesheet" type="text/css" href="./css/night.css">');
+        $('#welcome').css({"background-image": "url(./images/AMJ_logo/Andres_Logo_night.png)"});
+        $('.navbar').css("background-color","hsl(0, 0%, 4%)");
+        $('#navbarBasicExample').css("background-color","hsl(0, 0%, 4%)");
+        $('section > div > div > h1, h5, p').css("color","rgb(150,150,150)");
+        $('.moretext1').css("color","rgb(70,18,161)")
+        $('#me').attr("src","./images/AMJ_logo/Andres_Logo_BlueBlack.png")
+        $('.column > h1').css("color", "rgb(150,150,150)");
+        $('.resume_content').css("background-color", "hsl(0,0%,4%)");
+        $('.resume_content > .box').css("background-color", "hsl(0,0%,10%)");
+        $('#AM').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
+        $('#Photography').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
+        $('#Projects').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
+        $('#Resume').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
+    } else {
+        $('head').append('<link rel="stylesheet" type="text/css" href="./css/day.css">');
+        $('#welcome').css({"background-image": "url(./images/AMJ_logo/Andres_Logo_Day.png)"});
+        $('.navbar').css("background-color","#363636");
+        $('#navbarBasicExample').css("background-color","#363636");
+        $('section > div > div > h1, h5, p').css("color","black");
+        $('.moretext1').css("color","black")
+        $('#me').attr("src","./images/AMJ_logo/Andres_Logo_BlueWhite.png")
+        $('.column > h1').css("color", "black");
+        $('#AM').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
+        $('#Photography').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
+        $('#Projects').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
+        $('#Resume').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
+    }
+    $("#warning").css("color","black");
+}
+
+function mobile (){
+    if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i)  
+        || navigator.userAgent.match(/iPad/i)  
+        || navigator.userAgent.match(/iPod/i) 
+        || navigator.userAgent.match(/BlackBerry/i) 
+        || navigator.userAgent.match(/Windows Phone/i)) { 
+            $('#welcome').css("background-size","75%");
+            $('.text1').css("font-size","100px");
+            $('#burger').css("zoom","300%");
+            $('.navbar-item').css("font-size","300%");
+            $('#AM').css("font-size","225%");
+            $('#Photography').css("font-size","225%");
+            $('.cols').css("zoom","35%");
+            $('#Projects').css("font-size","225%");
+            $('#Resume').css("font-size","225%");
+            $('p').css("font-size","100%");
+    }
+}
+$(function() {
+    loadHTML();
+    loadmode(currHour);
+    mobile();
+});
+
+/*
+<h1 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Andrés Menjívar, Jr.</h1>
                         <div class = "box">
                             <h2 style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);">Contact Information:</h2>
                             <address style="font-family: 'Raleway', sans-serif;">
@@ -280,76 +354,4 @@ function loadHTML(){
                                 <li>Proficient in English and Spanish</li>
                             </ul>
                         </div>
-                        <a href = "./downloads/Resume_Menjivar (F1).pdf" target="_blank" style="font-family: 'Raleway', sans-serif; color:rgb(28, 161, 132);font-size:200%;">PDF of current Resume</a> 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class = "break"></div>
-        <section class="section" id = "R">
-            <div class="container">
-                <div class="content">
-                    <h1 class="title" >Site recommendations</h1>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeSnL2gK1gS9YFNDiioSnW_FxKIe95lXsS-g3YeetNt1bAfw/viewform?embedded=true" width="100%" height="800px"frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </div>
-            </div>
-        </section>`
-    $(elt).appendTo($root);
-}
-function loadmode(hour){
-    if (hour <=6 || hour>=18){
-        $('head').append('<link rel="stylesheet" type="text/css" href="./css/night.css">');
-        $('#welcome').css({"background-image": "url(./images/AMJ_logo/Andres_Logo_night.png)"});
-        $('.navbar').css("background-color","hsl(0, 0%, 4%)");
-        $('#navbarBasicExample').css("background-color","hsl(0, 0%, 4%)");
-        $('section > div > div > h1, h5, p').css("color","rgb(150,150,150)");
-        $('.moretext1').css("color","rgb(70,18,161)")
-        $('#me').attr("src","./images/AMJ_logo/Andres_Logo_BlueBlack.png")
-        $('.column > h1').css("color", "rgb(150,150,150)");
-        $('.resume_content').css("background-color", "hsl(0,0%,4%)");
-        $('.resume_content > .box').css("background-color", "hsl(0,0%,10%)");
-        $('#AM').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
-        $('#Photography').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
-        $('#Projects').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
-        $('#Resume').css({"background-image": `url(./images/randomdrops/night/r${Math.floor(Math.random() * (12-1)+1)}.png)`});
-    } else {
-        $('head').append('<link rel="stylesheet" type="text/css" href="./css/day.css">');
-        $('#welcome').css({"background-image": "url(./images/AMJ_logo/Andres_Logo_Day.png)"});
-        $('.navbar').css("background-color","#363636");
-        $('#navbarBasicExample').css("background-color","#363636");
-        $('section > div > div > h1, h5, p').css("color","black");
-        $('.moretext1').css("color","black")
-        $('#me').attr("src","./images/AMJ_logo/Andres_Logo_BlueWhite.png")
-        $('.column > h1').css("color", "black");
-        $('#AM').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
-        $('#Photography').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
-        $('#Projects').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
-        $('#Resume').css({"background-image": `url(./images/randomdrops/day/r${Math.floor(Math.random() * (11-1)+1)}.png)`});
-    }
-    $("#warning").css("color","black");
-}
-
-function mobile (){
-    if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i)  
-        || navigator.userAgent.match(/iPad/i)  
-        || navigator.userAgent.match(/iPod/i) 
-        || navigator.userAgent.match(/BlackBerry/i) 
-        || navigator.userAgent.match(/Windows Phone/i)) { 
-            $('#welcome').css("background-size","75%");
-            $('.text1').css("font-size","100px");
-            $('#burger').css("zoom","300%");
-            $('.navbar-item').css("font-size","300%");
-            $('#AM').css("font-size","225%");
-            $('#Photography').css("font-size","225%");
-            $('.cols').css("zoom","35%");
-            $('#Projects').css("font-size","225%");
-            $('#Resume').css("font-size","225%");
-            $('p').css("font-size","100%");
-    }
-}
-$(function() {
-    loadHTML();
-    loadmode(currHour);
-    mobile();
-});
-
+*/
