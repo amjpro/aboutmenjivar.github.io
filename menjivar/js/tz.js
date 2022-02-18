@@ -49,6 +49,10 @@ function loadHTML(){
                         colleagues, and anyone who would like to view them. They show a snippet of my knowledge in the field, 
                         and as this site continues to expand, I hope my work continues to express this.
                     </p>
+                    <p class ="notification is-warning">
+                            Note [2-18-22]: Site update underway (exciting!). That being said, some portions may seem outdated. 
+                            For employers viewing this: Resume pdf is the most up to date regardng course work, projects, and experience. : ]
+                </p>
                 </div>
             </div>
         </section>
