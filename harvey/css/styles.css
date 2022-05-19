@@ -3,7 +3,7 @@ html{
     height:100%;
     background-image: linear-gradient(90deg, rgb(106, 24, 24), rgb(79, 35, 10), rgb(167, 156, 0), rgb(255, 255, 255));
     background-repeat: no-repeat;
-    background-size: 800% 800%;
+    background-size: 800% 1000%;
     animation: gradient 20s ease infinite;
 }
 @keyframes gradient {
